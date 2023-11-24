@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Post</title>
+    <!-- Add Bootstrap CSS Link -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script> 
+        const bloggit_conf = {
+            "api_key": "e527f15623dc4494ae0e90ec50aeb7af",            
+            "preloader": "veron",
+            "cont_rend":"cappuccino",
+            "header": {
+                "type": "milky-way",
+                "brand_name": "Craennie's Blog",
+                "links":{
+                    "Home": "/home",
+                    "Contact": "/contact",
+                    "About": "/about"
+                }
+            },
+            
+            "comment": {
+                "render_form": "True",
+                "render_comments": "true"
+            }
+        }
+    </script>
+    <style>
+        #bloggit-header{
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+    </style>
+<script src = "https://bloggit.pythonanywhere.com/static/Javascript/config.js" defer></script>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <section id="bloggit-header">
+    </section>
+
+    <div id="bloggit-preloader"></div>
+    <div  id="bloggit-container">
+
+    </div>
+
+
+    <div id="bloggit-comment-rf">
+        
+    </div>
+
+
+    <section id="bloggit-comment-container">
+
+    </section>
+</body>
+</html>
